@@ -1,3 +1,39 @@
-.header_container {
+.container {
     display: flex;
+}
+
+.header {
+
+}
+
+.header .logo {
+
+}
+
+.header .modal {
+
+}
+
+.header .modal .text {
+
+}
+
+.header .modal button {
+
+}
+
+.header .modal img {
+
+}
+
+.info {
+
+}
+
+.quote {
+
+}
+
+.signup {
+
 }
