@@ -3,31 +3,84 @@
 }
 
 .header {
+    /*background-color: #1F2937;*/
+    flex-direction: column;
+    
+    
+ 
+}
 
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header .logo {
 
 }
 
-.header .modal {
+.container .modal {
+    display: flex;
+    
+    
+}
 
+.modal-design {
+    display: flex;
+    flex-direction: column;
+        
 }
 
 .header .modal .text {
-
+    
 }
 
 .header .modal button {
-
+    flex: 0;
 }
 
 .header .modal img {
-
+    width: 500px;
+    height: 200px;
+    display: flex;
 }
 
 .info {
+    flex-direction: column;
+    align-items: center;
+}
 
+.info .image img {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    border-radius: .25rem;
+}
+
+.images-container {
+    display: flex;
+    margin: 0 100px;
+    gap: 10px;
+}
+
+.info .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote {
